@@ -12,6 +12,7 @@ li a{
  text-decoration: none; /*Faz um comentario */
 font-size: 20px; /*Tamanho da fonte*/
 color: #ffff;
+padding: 20px;
 }
 
 li{
@@ -27,4 +28,16 @@ li{
 ul{
     display: flex; /* Indica a pripridade FleBox*/
     flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.caixa-img-logo{
+    height: 90px; /*Altura*/
+    width: 90px; /*Largura*/
 }
