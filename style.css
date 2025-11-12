@@ -1,43 +1,81 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    
+}
+
+body{
     background-color: #1a1a1a;
 
 }
 
 
+li a {
+    text-decoration: none;
+    /*Faz um comentario */
+    font-size: 20px;
+    /*Tamanho da fonte*/
+    color: #ffff;
+    padding: 20px;
 
-
-li a{
- text-decoration: none; /*Faz um comentario */
-font-size: 20px; /*Tamanho da fonte*/
-color: #ffff;
-padding: 20px;
 }
 
-li{
-    list-style: none; /* Remover formatação da lista*/
+li {
+    list-style: none;
+    /* Remover formatação da lista*/
+
 }
 
-#logo{
-    
-    height: 100px; /*Altura*/
-    width: 180px; /*Largura*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-ul{
-    display: flex; /* Indica a pripridade FleBox*/
+#logo {
+
+    height: 100px;
+    /*Altura*/
+    width: 180px;
+    /*Largura*/
+
+}
+
+ul {
+    display: flex;
+    /* Indica a pripridade FleBox*/
     flex-direction: row;
+
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+}
+
+.caixa-img-logo {
+    height: 90px;
+    /*Altura*/
+    width: 90px;
+    /*Largura*/
+
+}
+
+.bi {
+
+    font-size: 30px;
+    color: antiquewhite;
     
 }
 
-.caixa-img-logo{
-    height: 90px; /*Altura*/
-    width: 90px; /*Largura*/
+.banner{
+    background-image:url("./assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 800px;
+    border-radius: 25px;
 }
