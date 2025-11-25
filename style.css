@@ -1,177 +1,215 @@
 *{
  
-    padding: 0;
-    margin: 0;
-   }
-   
-   body{
-       background-color: #1a1a1a;
-   }
-    
-   .banner{
-       height: 450px;
-       width: 850px;
-       background-image: url("./assents/banner.png"); /*Ele adiciona uma imagem como fundo*/
-       background-repeat: no-repeat;
-       background-size: cover;
-       display: flex;
-       align-items: center;
-   }
-   
-   ul{
-   
-       display: flex;
-       flex-direction: row;
-   }
-   
-   li{
-       list-style: none;
-   }
-   
-   li a{
-   
-       text-decoration: none;
-       color: #ffffff;
-       font-size: 20px;
-       padding: 25px;
-       
-   }
-   
-   nav{
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
-   }
-   
-   #logo{
-       height:100px ;
-       width:100px ;
-   }
-   
-   .bi{
-       font-size: 30px;
-       color: #4c544c;
-   }
-   
-   .texto-banner{
-       color: #ffffff;
-       font-size: 25px;
-      
-   }
-   
-   .btn{
-       height: 40px;
-       width: 130px;
-       border-radius: 55px; /*Deixa a borda redonda*/
-       border: none; /*Serve para remover a borda*/
-       color: #ffffff;
-       font-weight: bold;
-       font-size: 19px;
-       background-color: #333333;
-       margin: 20px;
-   }
-   
-   .banner-estrutura{
-      width: 220px;
-      padding: 30px;
-      
-   }
-   
-   .section-banner{
-       display: flex;
-       justify-content: center;
-   }
-   
-   .titulo{
-       color: #ffffff;
-       font-weight: bold;
-       font-size: 35px;
-   }
-   
-   .estrutura-titulo{
-       display: flex;
-       justify-content: center;
-       padding: 30px;
-   }
-   
-   .produtos{
-   height: 380px;
-   width: 250px;
-   }
-   
-   .valor{
-       color: #ffffff;
-       font-weight: bold;
-       font-size: 30px;
-   
-   }
-   
-   .card-texto{
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
-       align-items: center;
-       
-       
-   }
-   .card{
-       width: 250px;
-       height: 430px;
-   }
-   
-   .cores{
-       height: 15px;
-       width: 15px;
-       border-radius: 100%;
-      
-       
-   }
-   .branco{
-       background-color: #ffffff;
-   }
-   .rosa{
-       background-color: #4c544c;
-   }
-   .vermelho{
-       background-color: red;
-   }
-   
-   .azul{
-       background-color: blue;
-   }
-   
-   .amarelo{
-       background-color: yellow;
-   }
-   
-   .laranja{
-       background-color: orangered;
-   }
-   
-   .verde{
-       background-color: green;
-   }
-   
-   .caixa-cores{
-       display: flex;
-       flex-direction: row;
-      padding: 5px;
-      gap: 5px;
-   }
-   
-   .carousel{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: row;
-       gap: 20px;  /* Ele dar uma distância igual entre os elementos */
-   }
+ padding: 0;
+ margin: 0;
+}
 
-   .estrutura-final{
+body{
+    background-color: #1a1a1a;
+}
+ 
+.banner{
+    height: 450px;
+    width: 850px;
+    background-image: url("./assets/banner.png"); /*Ele adiciona uma imagem como fundo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+
+    text-decoration: none;
     color: #ffffff;
+    font-size: 20px;
+    padding: 25px;
+    
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo{
+    height:100px ;
+    width:100px ;
+}
+
+.bi{
+    font-size: 30px;
+    color: #4c544c;
+}
+
+.texto-banner{
+    color: #ffffff;
+    font-size: 25px;
+   
+}
+
+.btn{
+    height: 40px;
+    width: 130px;
+    border-radius: 55px; /*Deixa a borda redonda*/
+    border: none; /*Serve para remover a borda*/
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: #333333;
+    margin: 20px;
+}
+
+.banner-estrutura{
+   width: 220px;
+   padding: 30px;
+   
+}
+
+.section-banner{
     display: flex;
     justify-content: center;
-    padding: 50px;
+}
+
+.titulo{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.estrutura-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.produtos{
+height: 380px;
+width: 250px;
+}
+
+.valor{
+    color: #ffffff;
+    font-weight: bold;
     font-size: 30px;
-    }
+
+}
+
+.card-texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.card{
+    width: 250px;
+    height: 430px;
+}
+
+.cores{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+   
+    
+}
+.branco{
+    background-color: #ffffff;
+}
+.rosa{
+    background-color: #4c544c;
+}
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.laranja{
+    background-color: orangered;
+}
+
+.verde{
+    background-color: green;
+}
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+   padding: 5px;
+   gap: 5px;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;  /* Ele dar uma distância igual entre os elementos */
+   
+}
+
+.banner-xbox{
+    background-image: url("./assents/x-box.png");
+    height: 450px;
+    width: 950px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.texto-xbox{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+
+.xbox-caixa{
+    display: flex;
+    justify-content: end;
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.banner-xbox{
+   background-image: url("./assets/produto_quatro.jpeg");
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    height: 500px;
+    margin: 200px;
+}
+
+.caixa-um{
+    font-size: 19px;
+    color: #4c544c;
+}
+
+.caixa-dois{
+    font-size: 15px;
+    color: #ffffff;
+}
