@@ -81,6 +81,9 @@ nav{
 .section-banner{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .titulo{
@@ -201,15 +204,62 @@ width: 250px;
     align-items: end;
     justify-content: start;
     height: 500px;
-    margin: 200px;
+    margin: 100px;
 }
 
 .caixa-um{
-    font-size: 19px;
+    font-size: 25px;
     color: #4c544c;
 }
 
 .caixa-dois{
-    font-size: 15px;
+    font-size: 20px;
     color: #ffffff;
+}
+.caixa-agrupando{
+    gap: 200px;
+    flex-direction: row;
+    display: flex;
+    width: 850px;
+    margin-left: 55px;
+    padding: 20px;
+}
+.caixa-footer-dois{
+color: #ffffff  ;
+font-size: 21px;
+margin-top: 25px;
+}
+.caixa-do-footer-dois{
+    background-color: #2c2c2c;
+    width: 1000px;
+    display: flex;
+padding: 20px;
+height: 400px;
+width: 950px;
+padding-top: 25px;
+margin: 45px;
+}
+
+.bibi{
+    color: #ffffff;
+}
+
+.imagens-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 33px;
+    gap: 10px;
+}
+
+.texto-menor{
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo-dois{
+    display: flex;
+    justify-content: center;
+    height:100px ;
+    width:100px ;
 }
